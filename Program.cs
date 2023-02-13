@@ -20,7 +20,6 @@ int NumberOfShortElements(string[] arr)
 
 string[] FillArray(string[] massiv, string[] collection)
 {
-    // string[] collection = new string[num];
     for (int i = 0; i < massiv.Length;)
     {
         for (int j = 0; j < collection.Length;)
